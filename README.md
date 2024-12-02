@@ -25,6 +25,19 @@ Team Credits :
   Het Detroja: Research on machine learning algorithms, particularly advanced regression techniques
   Raj Katariya: Project documentation, model deployment, and testing
   Together, we collaborated to deliver a comprehensive and accurate predictive model that can be used to forecast revenue based on multiple business factors.
+  Summary of Results
+
+The predictive model was able to forecast JetBrains' revenue with a reasonable level of accuracy (measured using Mean Squared Error or RMSE).
+Key features influencing revenue generation include team size, experience level, and previous team performance.
+The model revealed that larger teams with higher average experience levels tend to generate higher revenue.
+Insights from the model can be used to inform team restructuring, resource allocation, and sales forecasting for future growth.
+Challenges Faced
+
+Data Quality Issues: The dataset contained missing values, outliers, and inconsistencies which required extensive data cleaning and imputation.
+Feature Engineering: Identifying the most relevant features from the data was a complex task, and we had to experiment with various combinations of features.
+Model Selection: Choosing the right model and tuning hyperparameters took a significant amount of time and trial-and-error.
+Overfitting: Initial models performed well on the training data but struggled to generalize on unseen data. We overcame this by implementing cross-validation techniques and adjusting model complexity.
+Data Imbalance: Some of the classes in the dataset (e.g., team size) were imbalanced, which required additional techniques like resampling to achieve optimal results.
 
   Contact
 
